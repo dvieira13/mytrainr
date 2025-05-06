@@ -1,0 +1,8 @@
+# Allow Vite-generated JS/CSS/Assets
+/assets/*    /assets/:splat    200
+
+# Allow direct HTML routes (fallback)
+/*.html       /:splat          200
+
+# Let Vite handle SPA routing if needed
+/*           /index.html       200
