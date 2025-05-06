@@ -160,7 +160,7 @@ function renderWorkoutPlanTableRows(
             <div class="checkbox"></div>
             <p class="body-copy bold-text">${workout.workout_distance} ${distance_label}</p>
             <p class="caption-copy bold-text">${workout.workout_type}</p>
-            <img class="expand-icon" src="https://iili.io/3O0WpHX.png" />
+            <img class="expand-icon" src="https://iili.io/3O08leV.png" />
           `;
             }
 

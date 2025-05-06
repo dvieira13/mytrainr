@@ -173,10 +173,12 @@ a.nav-menu-option:hover .nav-menu-copy {
 .expandable-header {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .nav-expand-icon {
     width: 12px;
+    height: fit-content;
 }
 
 .expandable-body {

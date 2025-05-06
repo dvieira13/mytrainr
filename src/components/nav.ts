@@ -26,7 +26,7 @@ export function load_nav(containerId: string = "nav-placeholder"): void {
           </div>
         </div>
         <a class="nav-logo" href="/" title="trainr home">
-          <img class="nav-logo-img" src="https://iili.io/3OcN3kF.png" alt="trainr logo" />
+          <img class="nav-logo-img" src="https://iili.io/3O13twl.png" alt="trainr logo" />
         </a>
         <div class="nav-right-container">
           <a class="nav-cta active-nav-account-button" id="nav_sign_in_button" href="/sign-in">
@@ -39,7 +39,7 @@ export function load_nav(containerId: string = "nav-placeholder"): void {
       </div>
       <div class="nav-mobile">
         <a class="nav-logo" href="/" title="trainr home">
-          <img class="nav-logo-img" src="https://iili.io/3OcN3kF.png" alt="trainr logo" />
+          <img class="nav-logo-img" src="https://iili.io/3O13twl.png" alt="trainr logo" />
         </a>
         <div class="nav-mobile-button">
           <img class="nav-open-icon" src="https://iili.io/3O0WpHX.png" title="open nav">
