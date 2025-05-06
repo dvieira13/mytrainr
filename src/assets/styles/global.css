@@ -178,7 +178,7 @@ a.nav-menu-option:hover .nav-menu-copy {
 
 .nav-expand-icon {
     width: 12px;
-    height: fit-content;
+    height: auto;
 }
 
 .expandable-body {
