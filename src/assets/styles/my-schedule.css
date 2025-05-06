@@ -180,9 +180,7 @@
     }
 
     .schedule tr>:first-child {
-        min-width: 3%;
-        width: 3%;
-        padding: 0 8px;
+        width: 5%;
     }
 
     .week-label h5 {
@@ -481,6 +479,7 @@
 @media (max-width: 768px) {
     .generate-plan-comp {
         padding: 30px 5%;
+        box-sizing: border-box;
     }
 
     .generate-plan-comp h5 {
