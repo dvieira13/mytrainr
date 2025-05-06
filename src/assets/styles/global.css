@@ -306,7 +306,8 @@ a.nav-menu-option:hover .nav-menu-copy {
     }
 
     .nav-logo-img {
-        width: 100%;
+        width: auto;
+        height: 30px;
     }
 
     .nav-cta {
