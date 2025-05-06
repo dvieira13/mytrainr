@@ -13,7 +13,7 @@ export function load_nav(containerId: string = "nav-placeholder"): void {
           <div class="nav-menu-option expandable-option">
             <div class="expandable-header">
               <p class="nav-menu-copy">More</p>
-              <img class="nav-expand-icon" src="/public/show.svg" />
+              <img class="nav-expand-icon" src="https://iili.io/3Ocj9Zx.png" />
             </div>
             <div class="expandable-body">
               <a class="nav-menu-option" href="/pace-calculator" title="Pace Calculator">
@@ -26,7 +26,7 @@ export function load_nav(containerId: string = "nav-placeholder"): void {
           </div>
         </div>
         <a class="nav-logo" href="/" title="trainr home">
-          <img class="nav-logo-img" src="/public/trainr.svg" alt="trainr logo" />
+          <img class="nav-logo-img" src="https://iili.io/3OcN3kF.png" alt="trainr logo" />
         </a>
         <div class="nav-right-container">
           <a class="nav-cta active-nav-account-button" id="nav_sign_in_button" href="/sign-in">
@@ -39,10 +39,10 @@ export function load_nav(containerId: string = "nav-placeholder"): void {
       </div>
       <div class="nav-mobile">
         <a class="nav-logo" href="/" title="trainr home">
-          <img class="nav-logo-img" src="/public/trainr.svg" alt="trainr logo" />
+          <img class="nav-logo-img" src="https://iili.io/3OcN3kF.png" alt="trainr logo" />
         </a>
         <div class="nav-mobile-button">
-          <img class="nav-open-icon" src="/public/burger.svg" title="open nav">
+          <img class="nav-open-icon" src="https://iili.io/3OcMFVI.png" title="open nav">
         </div>
       </div>
     `;
