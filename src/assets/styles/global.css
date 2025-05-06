@@ -340,6 +340,7 @@ a.nav-menu-option:hover .nav-menu-copy {
 
     .nav-mobile-active {
         display: flex;
+        border-bottom: 1px solid #E7E5D9;
     }
 
     .expandable-body {

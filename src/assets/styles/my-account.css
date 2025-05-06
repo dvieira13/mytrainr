@@ -227,6 +227,10 @@
         max-width: 100%;
         box-sizing: border-box;
     }
+
+    .my-event-header-comp .body-copy{
+        font-size: 14px;
+    }
 }
 
 /* MY EVENT HEADER COMP STYLES */
