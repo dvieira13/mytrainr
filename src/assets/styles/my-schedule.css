@@ -182,6 +182,7 @@
     .schedule tr>:first-child {
         min-width: 3%;
         width: 3%;
+        padding: 0 8px;
     }
 
     .week-label h5 {
@@ -353,6 +354,8 @@
 @media (max-width: 768px) {
     .workout-popup {
         width: 90%;
+        max-height: 90vh;
+        overflow-y: scroll;
     }
 
     .workout-popup-header {
