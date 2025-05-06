@@ -305,6 +305,10 @@ a.nav-menu-option:hover .nav-menu-copy {
         height: 30px;
     }
 
+    .nav-logo-img {
+        width: 100%;
+    }
+
     .nav-cta {
         width: 120px;
     }

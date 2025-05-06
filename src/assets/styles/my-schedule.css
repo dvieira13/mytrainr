@@ -180,6 +180,7 @@
     }
 
     .schedule tr>:first-child {
+        min-width: 3%;
         width: 3%;
     }
 
