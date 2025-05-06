@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/trainr_icon-DMj9ZL8n.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account | trainr</title>
+  <script type="module" crossorigin src="/assets/main-DwmqFbjY.js"></script>
+  <script type="module" crossorigin src="/assets/account-BPY2a7o1.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-CIY0entD.css">
+  <link rel="stylesheet" crossorigin href="/assets/account-DdbIWaya.css">
+</head>
+
+<body>
+    <div class="nav" id="nav-placeholder">
+    </div>
+    <div id="main">
+        <div class="account-form" id="create_account_form">
+            <img class="trainr-icon" src="data:image/svg+xml,%3csvg%20width='71'%20height='71'%20viewBox='0%200%2071%2071'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20width='71'%20height='71'%20rx='8'%20fill='%23DCC773'/%3e%3cpath%20d='M26.128%2043.792C26.096%2043.984%2026.08%2044.24%2026.08%2044.56C26.08%2045.2%2026.256%2045.664%2026.608%2045.952C26.992%2046.208%2027.616%2046.336%2028.48%2046.336H31.648L30.64%2052H26.368C21.568%2052%2019.168%2050%2019.168%2046C19.168%2045.232%2019.232%2044.48%2019.36%2043.744L21.616%2030.928H18.448L19.408%2025.408H22.624L23.776%2018.832H30.544L29.392%2025.408H35.296L34.336%2030.928H28.384L26.128%2043.792ZM46.0814%2030.112C47.2334%2028.512%2048.5774%2027.264%2050.1134%2026.368C51.6494%2025.472%2053.3134%2025.024%2055.1054%2025.024L53.8574%2032.08H52.0814C50.0974%2032.08%2048.4974%2032.512%2047.2814%2033.376C46.0974%2034.24%2045.2334%2035.712%2044.6894%2037.792L42.1934%2052H35.4254L40.1294%2025.408H46.8974L46.0814%2030.112Z'%20fill='black'/%3e%3c/svg%3e" alt="trainr icon" />
+            <div class="associate-message hide-associate-message">
+                <p class="caption-copy">Create an Account to save the event <nobr><span class="bold-text"
+                        id="associate_message_name"></span></nobr> to your account!
+                </p>
+            </div>
+            <div class="account-form-fields">
+                <div class="account-form-row">
+                    <div class="account-form-item" id="first_name_item">
+                        <p class="caption-copy">first name</p>
+                        <input type="text" id="first_name" name="first_name" maxlength="40" />
+                    </div>
+                    <div class="account-form-item" id="last_name_item">
+                        <p class="caption-copy">last name</p>
+                        <input type="text" id="last_name" name="last_name" maxlength="40" />
+                    </div>
+                </div>
+                <div class="account-form-item item-error" id="username_item">
+                    <p class="caption-copy">username</p>
+                    <input type="text" id="username" name="username" maxlength="40" />
+                </div>
+                <div class="account-form-item" id="password_item">
+                    <p class="caption-copy">password</p>
+                    <input type="password" id="password" name="password" maxlength="40" />
+                </div>
+                <div class="account-form-item" id="confirm-password_item">
+                    <p class="caption-copy">confirm password</p>
+                    <input type="password" id="confirm_password" name="confirm_password" maxlength="40" />
+                </div>
+                <div class="account-error-message" id="error_password_match">
+                    <p class="caption-copy error-text">Passwords do not match.</p>
+                </div>
+                <div class="account-error-message" id="error_account_exists">
+                    <p class="caption-copy error-text">Account with this username already exists.</p>
+                </div>
+                <div class="account-form-cta" id="sign_in_submit">
+                    <p class="body-copy bold-text">Create Account</p>
+                </div>
+                <a class="account-form-footer" href="/sign-in">
+                    <p class="caption-copy green-copy">Already have an account? </p>
+                    <p class="caption-copy bold-text">Sign In</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

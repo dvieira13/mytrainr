@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/trainr_icon-DMj9ZL8n.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Schedule | trainr</title>
+  <script type="module" crossorigin src="/assets/my-schedule-ChNRWksG.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/main-DwmqFbjY.js">
+  <link rel="stylesheet" crossorigin href="/assets/main-CIY0entD.css">
+  <link rel="stylesheet" crossorigin href="/assets/my-schedule-D8fPVdbI.css">
+</head>
+
+<body>
+  <div class="nav" id="nav-placeholder">
+  </div>
+  <div id="main">
+    <div class="page-header">
+      <h1>My Schedule</h1>
+    </div>
+    <a class="generate-plan-comp hide-schedule-comp" href="/generate-plan">
+      <h5>ready to start training for your first event?</h5>
+      <h5>click here to generate your personalized schedule and get started</h5>
+      <span class="arrow">
+        <span class="line"></span>
+        <span class="head"></span>
+      </span>
+    </a>
+    <div class="schedule-comp hide-schedule-comp">
+      <div class="schedule-header">
+        <div class="schedule-title">
+          <h2>Marathon</h2>
+        </div>
+        <div class="trainr-cta" id="export_schedule_button">
+          <p class="body-copy bold-text">Export Schedule</p>
+        </div>
+      </div>
+      <div class="schedule-container">
+        <table class="schedule">
+          <thead class="schedule-head">
+            <tr>
+              <th>
+                <p class="caption-copy bold-text"><span class="desktop-only">Week</span><span class="mobile-only">#</span></p>
+              </th>
+              <th>
+                <p class="caption-copy bold-text">M<span class="desktop-only">onday</span></p>
+              </th>
+              <th>
+                <p class="caption-copy bold-text">T<span class="desktop-only">uesday</span></p>
+              </th>
+              <th>
+                <p class="caption-copy bold-text">W<span class="desktop-only">ednesday</span></p>
+              </th>
+              <th>
+                <p class="caption-copy bold-text">T<span class="desktop-only">hursday</span></p>
+              </th>
+              <th>
+                <p class="caption-copy bold-text">F<span class="desktop-only">riday</span></p>
+              </th>
+              <th>
+                <p class="caption-copy bold-text">S<span class="desktop-only">aturday</span></p>
+              </th>
+              <th>
+                <p class="caption-copy bold-text">S<span class="desktop-only">unday</span></p>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="schedule-body">
+            <!-- SCHEDULE ROWS INSERTED HERE DYNAMICALLY BY my_schedule.ts -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="workout-popup-container" id="workout_popup">
+    <div class="workout-popup">
+      <div class="workout-popup-header">
+        <div class="popup-header-row">
+          <div class="popup-distance-container">
+            <h2 id="popup_distance">miles</h2>
+            <p class="body-copy mobile-only popup_pace">target pace</p>
+          </div>
+          <div class="popup-workout-type-container">
+            <img class="popup-icon" id="popup_icon" src="data:image/svg+xml,%3csvg%20width='22'%20height='30'%20viewBox='0%200%2022%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.1741%2030V21.7002L10.6116%2018.2954L9.13388%2024.8259L0%2022.9719L0.432203%2020.8523L7.26207%2022.2608L9.73043%209.70303L6.34822%2011.0675V15.7795H4.21389V9.66997L9.86169%207.27985C10.5821%206.97908%2011.113%206.78%2011.4543%206.68258C11.7953%206.58494%2012.109%206.53611%2012.3955%206.53611C12.8297%206.53611%2013.2329%206.65047%2013.605%206.87918C13.977%207.10814%2014.2799%207.41317%2014.5135%207.79428L15.9364%2010.0696C16.5437%2011.0468%2017.375%2011.8689%2018.4303%2012.5361C19.4856%2013.2033%2020.6755%2013.5643%2022%2013.619V15.7521C20.5534%2015.7066%2019.1552%2015.3351%2017.8053%2014.6376C16.4552%2013.9403%2015.3041%2012.9307%2014.352%2011.6089L13.293%2016.9555L16.3084%2019.8544V30H14.1741ZM14.5298%205.25093C13.802%205.25093%2013.1822%204.9952%2012.6705%204.48374C12.1587%203.97227%2011.9028%203.35285%2011.9028%202.62547C11.9028%201.89809%2012.1587%201.27866%2012.6705%200.767196C13.1822%200.255731%2013.802%200%2014.5298%200C15.2576%200%2015.8774%200.255731%2016.3892%200.767196C16.901%201.27866%2017.1568%201.89809%2017.1568%202.62547C17.1568%203.35285%2016.901%203.97227%2016.3892%204.48374C15.8774%204.9952%2015.2576%205.25093%2014.5298%205.25093Z'%20fill='black'/%3e%3c/svg%3e" alt="workout type icon" />
+            <a id="popup_type" target="_blank">
+              <h5></h5>
+            </a>
+          </div>
+        </div>
+        <p class="body-copy desktop-only popup_pace">target pace</p>
+      </div>
+      <div class="workout-popup-form">
+        <div class="popup-form-row">
+          <div class="popup-form-column">
+            <div class="form-item" id="popup_time_item">
+              <p class="body-copy">Total Time</p>
+              <input type="text" id="popup_time" name="popup_time" maxlength="8" />
+              <p class="caption-copy">hh:mm:ss</p>
+            </div>
+            <div class="form-item" id="popup_difficulty_item">
+              <p class="body-copy">Difficulty</p>
+              <div class="form-dropdown">
+                <select class="event-selector" id="popup_difficulty" name="popup_difficulty">
+                  <option hidden disabled selected value></option>
+                  <option value="Easy">Easy</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Difficult">Difficult</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-item" id="popup_notes_item">
+            <p class="body-copy">Notes</p>
+            <textarea type="text" id="popup_notes" name="popup_notes" maxlength="400"
+              placeholder="How'd it go?"></textarea>
+          </div>
+        </div>
+        <div class="popup-form-row">
+          <div class="form-checkbox-item">
+            <div class="form-checkbox"></div>
+            <p class="body-copy">Workout Complete</p>
+          </div>
+          <div class="form-cta" id="workout_popup_save_button">
+            <p class="caption-copy bold-text">Save</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <img class="close-popup" src="data:image/svg+xml,%3csvg%20width='33'%20height='33'%20viewBox='0%200%2033%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14%2019L14%2033H10.1818L10.1818%2022.8182H0.000108719V19H14Z'%20fill='black'/%3e%3cpath%20d='M22.8183%20-1.33514e-05V10.1818L33%2010.1818V14L19.0001%2014V-1.33514e-05H22.8183Z'%20fill='black'/%3e%3c/svg%3e" alt="Close Popup icon">
+    </div>
+  </div>
+</body>
+
+</html>
