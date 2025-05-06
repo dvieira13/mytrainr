@@ -352,7 +352,7 @@
 @media (max-width: 768px) {
     .workout-popup {
         width: 90%;
-        max-height: 80vh;
+        max-height: 70vh;
         overflow-y: scroll;
         position: absolute;
         top: 0;
