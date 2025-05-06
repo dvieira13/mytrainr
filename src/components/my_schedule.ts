@@ -160,7 +160,7 @@ function renderWorkoutPlanTableRows(
             <div class="checkbox"></div>
             <p class="body-copy bold-text">${workout.workout_distance} ${distance_label}</p>
             <p class="caption-copy bold-text">${workout.workout_type}</p>
-            <img class="expand-icon" src="./src/assets/icons/expand.svg" />
+            <img class="expand-icon" src="https://iili.io/3O0WpHX.png" />
           `;
             }
 
@@ -292,16 +292,16 @@ function getPopupIconSrc(workout_type: string): string {
 
     switch (workout_type) {
         case "easy run":
-            icon_src = "./src/assets/icons/easy_run.svg";
+            icon_src = "https://iili.io/3O0aoCX.png";
             break;
         case "tempo run":
-            icon_src = "./src/assets/icons/tempo_run.svg";
+            icon_src = "https://iili.io/3O0l0db.png";
             break;
         case "long run":
-            icon_src = "./src/assets/icons/long_run.svg";
+            icon_src = "https://iili.io/3O01nRf.png";
             break;
         default:
-            icon_src = "./src/assets/icons/easy_run.svg";
+            icon_src = "https://iili.io/3O0aoCX.png";
     }
 
     return icon_src;
