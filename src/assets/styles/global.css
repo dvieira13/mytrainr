@@ -198,6 +198,11 @@ a.nav-menu-option:hover .nav-menu-copy {
 
 .nav-logo {
     display: flex;
+    justify-content: center;
+}
+
+.nav-logo-img {
+    width: 50%;
 }
 
 .nav-right-container {
@@ -279,7 +284,7 @@ a.nav-menu-option:hover .nav-menu-copy {
         right: 0;
         left: 0;
         background: #FFF;
-        z-index: 1;
+        z-index: 10;
     }
 
     .nav-desktop .nav-logo {
@@ -309,7 +314,7 @@ a.nav-menu-option:hover .nav-menu-copy {
     }
 
     .nav-open-icon {
-        max-width: 24px;
+        max-width: 20px;
     }
 
     .nav-mobile-button {
@@ -338,6 +343,7 @@ a.nav-menu-option:hover .nav-menu-copy {
 
     .nav-option-expanded .expandable-body {
         display: flex;
+        padding: 5px 20px 0;
     }
 
     .nav-option-expanded .nav-expand-icon {
